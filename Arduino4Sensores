@@ -9,8 +9,6 @@ float temperatura;
 int ldr_pin = A5, leitura_ldr = 0;
 int switch_pin = 7;
 
-int linha = 0;
-
 void setup()
 {
 Serial.begin(9600);
